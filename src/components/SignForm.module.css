@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.main{
+    height: 390px;
+    width: 422px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    position: relative;
+    display: flex;
+    gap:1rem;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+}
+.main .inputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    gap:1rem;
+    padding:10px;
+    padding:5px 10px;
+    width:90%;
+}
+.inputContainer label{
+    font-size:1.15rem;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}
+.inputContainer input{
+    width: 90%;
+    height: 1.8rem;
+    padding: 1px 10px;
+    letter-spacing: 0.02em;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    background-color: rgba(245, 245, 245, 1);
+}
+.inputContainer input:hover{
+    background-color: rgba(234, 234, 234, 1);
+}
+.loginContainer{
+    display: flex;
+    width: 90%;
+    gap:20px;
+    padding:0 10px 10px 10px;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+}
+.loginContainer .forgot{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+    color:rgba(52, 107, 212, 1);
+}
+.loginContainer .submit{
+    background-color: #346bd4;
+    color: rgba(255, 255, 255, 1);
+    width: 90%;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-align: center;
+}
+.loginContainer .submit:hover{
+    background-color: #043ca3;
+}
+.footer{
+    position: relative;
+    top:20px;
+    display: flex;
+    gap:5px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 13px;
+    width: 90%;
+}
+.footer div{
+    align-self: center;
+}
+.footer a{
+    align-self:center;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #346bd4;
+    text-decoration: none;
+    padding:0 6px;
+}
+.footer a:hover{
+    color: #043ca3;
+}
+.loginContainer .forgot:hover{
+    color:#043ca3;;
+}
+.check{
+    display: flex;
+        width: 90%;
+        flex-direction: row;
+        padding:0.6rem 0 0.6rem 1rem;
+        border: none;
+        gap:1rem;
+        border-radius: 1rem;
+        background-color: greenyellow;
+        color: black;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+}
+.wrong{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    padding:0.6rem 0 0.6rem 1rem;
+    border: none;
+    gap:1rem;
+    border-radius: 1rem;
+    background-color: red;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+}

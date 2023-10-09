@@ -1,24 +1,35 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
+import {createBrowserRouter,RouterProvider,useLocation} from 'react-router-dom';
+import Login  from './pages/Login';
+import Root from './pages/Root';
+import Dashboard from './pages/Dashboard';
+import Transcation from './pages/Transcation';
+import Schedules from './pages/Schedules';
+import Users from './pages/Users';
+import Setting from './pages/Setting';
 import './App.css';
+import './index.css';
+import {query} from '../src/store/http';
+import {QueryClientProvider} from '@tanstack/react-query';
 
+
+const router = createBrowserRouter([
+  {path:'',element:<Login />},
+  {
+    path:'root',element:<Root />,children:[
+      {path:'',element:<Dashboard/>},
+      {path:'transcation',element:<Transcation/>},
+      {path:'schedules',element:<Schedules/>},
+      {path:'user',element:<Users />},
+      {path:'setting',element:<Setting/>}
+    ]
+  }
+])
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={query}>
+    <RouterProvider router={router} />
+    </QueryClientProvider>
   );
 }
 

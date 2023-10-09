@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Lato&family=Montserrat&family=Open+Sans&display=swap');
+.header{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    height: 125px;
+}
+.content{
+    width: 200px;
+    height: 100px;
+    padding: 0.8rem 1rem;
+    border: 2px solid rgba(224, 224, 224, 1);
+    box-shadow: 3px 4px 11px 0px #62626226;
+    border-radius: 1.5rem;
+    background-color: #ffffff;
+}
+.icon{
+    font-size: 20px;
+    color: white;
+    background-color: #7fcd93;
+    padding: 0.2rem;
+    border-radius: 50%;
+}
+.first{
+    display: flex;
+    height: auto;
+    height: 60%;
+    flex-direction: row;
+}
+.first div{
+    display: flex;
+    flex-direction: column;
+}
+.first div p{
+    position: relative;
+    bottom: 15px;
+    font-family: 'Lato', sans-serif;
+}
+.first div h3{
+    position: relative;
+    bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.first .p{
+    position: relative;
+    align-self:flex-end;
+    padding: 5px;
+    border-radius: 1rem;
+    top:10px;
+    left:5px;
+    font-family: 'Figtree', sans-serif;
+    font-family: Figtree;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-color: rgba(233, 249, 235, 1);
+    color: rgba(74, 209, 95, 1);
+
+}
+
+
+
+

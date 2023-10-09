@@ -1,0 +1,36 @@
+.main{
+    background-color: #FFFFFF;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 495px;
+    gap:10px;
+    border: 2px solid #E0E0E0;
+    box-shadow: 4px 4px 20px 0px #0000001A;
+    border-radius: 20px;
+}
+.main button{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    background-color: #EBEBEB;
+}
+button .icon{
+    color: #999CA0;
+    font-size: 60px;
+}
+.main p{
+    font-size: 16px;
+    position: relative;
+    left: 2px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    color: #858585;
+    font-family: 'Figtree', sans-serif;
+}
+.main button:hover{
+    background-color: #d1cdcd;
+}

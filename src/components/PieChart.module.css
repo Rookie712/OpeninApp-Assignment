@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Lato&family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+.apexcharts-legend {
+    font-size: 14px; 
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    font-weight: 500;
+  }
+  .apexcharts-legend-series {
+    margin-right: 10px; 
+  }
+  .footer{
+    background-color: #FFFFFF;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    width: 495px;
+    border: 2px solid #E0E0E0;
+    box-shadow: 4px 4px 20px 0px #0000001A;
+    border-radius: 20px;
+  }
+  .first{
+    width: 247.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+  }
+  .second{
+    width: 247.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:14px;
+    align-items: center;
+    position: relative;
+    top:10px;
+  }
+  .first p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+  .legend{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    gap:12px;
+    height: 45px;
+  }
+  .legend span{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top:4.5px;
+    left: 2px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+  }
+  .legend div h4{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    bottom: 19px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #000000;
+  }
+  .legend div p{
+    position: relative;
+    bottom: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: #858585;
+  }
+  .third{
+    position: absolute;
+    right: 590px;
+    top:678px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color:#858585;
+  }

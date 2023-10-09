@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+.firstHalf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 15vw);
+    height: inherit;
+    background-color: #4285F4 ;
+}
+.secondHalf{
+    width:calc(50% + 15vw);
+    height: inherit;
+    background-color:rgba(248, 250, 255, 1);
+    box-sizing: border-box;
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 100px solid #4285F4;
+    border-bottom: 100vh solid transparent;
+}
+.icons{
+    position: absolute;
+    top:500px;
+    display:flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap:3rem;
+    justify-content:center;
+    color: white;
+    margin-bottom: 3rem;
+}
+.icons .iconSize{
+    font-size: 2.25rem;
+}
+.firstHalf h1{
+    align-self: center;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.topHeading{
+    position: absolute;
+    bottom: 570px;
+    left:50px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+}
+.topHeading .iconSize{
+    color: white;
+    font-size: 4rem;
+}
+.secondHalf .btn{
+    position:absolute;
+    top:150px;
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1rem;
+    box-sizing: border-box;
+}
+.btn button{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    outline: none;
+    padding:5px  10px ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: none;
+    letter-spacing: 0.04em;
+    border-radius: 0.5rem;
+    color: rgba(133, 133, 133, 1);
+    background-color: #ffffff;
+}
+.btn button:hover{
+    color:rgb(6, 126, 238);
+}
+.secondHalf .firstHeader{
+    width: 422px;
+    letter-spacing: 0.05em;
+    position:absolute;
+    top:15px;
+}
+.firstHeader h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.firstHeader p{
+    font-family: 'Lato', sans-serif;
+}
+.btn button img{
+    height: 16px;
+    width: 16px;
+}
+.signForm{
+    position:absolute;
+    top:220px;
+}

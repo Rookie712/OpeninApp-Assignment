@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Lato&family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+.main{   
+  height: 400px;
+  background-color: #FFFFFF;
+  border: 2px solid #E0E0E0;
+  box-shadow: 4px 4px 20px 0px #0000001A;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.activities{
+    position: relative;
+    width: 124px;
+    height:50px;
+    left:25px;
+    text-align:left;
+    font-family: 'Montserrat', sans-serif;
+}
+.activities h3{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 22px;
+}
+.activities p{
+    font-size: 14px;
+    color: #858585;
+    line-height: 17px;
+    font-weight: 400;
+    position: relative;
+    bottom: 12px;
+    letter-spacing: 0.05em;
+}
+.userGuest{
+    position:relative;
+    width: 200px;
+    height:40px;
+    left:700px;
+    bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+}
+.explain{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    width: 100px;
+    gap:1rem;
+}
+.explain span{
+    width: 9px;
+    height: 9px;
+    border: none;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top:2px;
+    align-self: center;
+}
+.explain p{
+    width: 40px;
+    height: 17px;
+    align-self: center;
+    font-size: 16px;
+}
+.chart{
+    position: relative;
+    bottom: 1.5rem;
+    padding:0 1.5rem;
+}
