@@ -6,12 +6,12 @@
     gap:30rem;
     font-family: 'Montserrat', sans-serif;
     color: black;
-    height:40px;
+    height:2.5rem;
     box-sizing: border-box;
 }
 .header p{
     align-self: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     letter-spacing: 0.04em;
 }
@@ -28,7 +28,7 @@
     align-items: center;
 }
 .input input{
-    font-size: 18px;
+    font-size:1.125rem;
     border: none;
     outline: none;
     padding: 0 1rem;
@@ -41,20 +41,25 @@
     outline: none;
 }
 .content .icon{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgba(133, 133, 133, 1);
     transition: 0.3s;
 }
 .content .icon:hover{
-    font-size: 20px;
+    font-size: 1.25rem;
     transform: scale(1.2);
     color:rgb(88, 88, 88) ;
 }
 .content .noti{
     align-self: center;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .content img{
-    width:24px;
-    height:24px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media (max-width:1300px){
+    .header{
+      gap:20rem;
+    }
 }

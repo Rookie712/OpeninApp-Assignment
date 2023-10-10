@@ -33,3 +33,16 @@ code {
   gap:2rem;
   height: 150vh;
 }
+
+@media(max-width:1300px){
+  .root{
+    gap:2rem;
+  }
+  .dashboard{
+    gap:2rem;
+    height: 150vh;
+  }
+  .main{
+    width:95%;
+  }
+}

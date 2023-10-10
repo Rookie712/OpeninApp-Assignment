@@ -40,7 +40,7 @@ const PieChart = () => {
     <div className={classes.footer}>
       <div className={classes.first}>
         <p>Top Products</p>
-        <ReactApexChart options={state.options} series={state.series} type="donut" width={247} />
+        <ReactApexChart options={state.options} series={state.series} type="donut" className={classes.chart} />
       </div>
       <div className={classes.second}>
         <div className={classes.legend}>
