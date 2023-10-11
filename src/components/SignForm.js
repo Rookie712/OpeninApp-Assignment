@@ -102,20 +102,20 @@ const SignForm = () => {
     <form onSubmit={submitHandler} className={classes.main}>
       {sign.upDisplay && (
         <div className={classes.check}>
-          <CheckCircleIcon />
-          <>you are all set to go.</>
+          <div><CheckCircleIcon className={classes.phoneicon} /></div>
+          <div>you are all set to go.</div>
         </div>
       )}
       {isError && (
         <div className={classes.wrong}>
-          <NetworkCellRounded />
-          Network Error
+         <div><NetworkCellRounded className={classes.phoneicon} /></div> 
+         <div>Network Error</div>
         </div>
       )}
       {sign.inDisplay && !isError && (
         <div className={classes.wrong}>
-          <CancelIcon />
-          <span>you entered wrong credentials.</span>
+          <div><CancelIcon className={classes.phoneicon} /></div>
+          <div>you entered wrong credentials.</div>
         </div>
       )}
       <div className={classes.inputContainer}>
