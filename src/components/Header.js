@@ -13,7 +13,7 @@ const Header = () => {
              <input placeholder='Search...' />
              <button><Search className={classes.icon}/></button>
             </div>
-            <Notifications className={classes.noti}/>
+            <div><Notifications className={classes.noti}/></div>
             <img src={image}/>
         </div>
     </div>

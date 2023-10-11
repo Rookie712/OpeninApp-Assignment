@@ -9,7 +9,7 @@ const SecondHeader = () => {
   return (
     <div className={classes.header}>
         <div className={classes.content}>
-            <CloudDownloadIcon style={{backgroundColor:'#7fcd93'}} className={classes.icon}/>
+            <div><CloudDownloadIcon style={{backgroundColor:'#7fcd93'}} className={classes.icon}/></div>
             <div className={classes.first}>
                 <div>
                     <p>Total Revenues </p>

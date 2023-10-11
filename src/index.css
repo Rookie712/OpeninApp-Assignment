@@ -20,17 +20,14 @@ code {
   padding: 1rem 2rem 2rem 1rem;
 }
 .main{
-  width:77.7%;
+  max-width:77.7%;
   height: 150vh;
-  display: flex;
-  flex-direction: column;
-  gap:2rem;
-  align-items: center;
 }
 .dashboard{
   display: flex;
   flex-direction: column;
   gap:2rem;
+  flex: 1;
   height: 150vh;
 }
 
@@ -44,5 +41,35 @@ code {
   }
   .main{
     width:95%;
+  }
+}
+@media(max-width:993px){
+  .main{
+    max-width:75%;
+  }
+}
+@media (max-width:894px) {
+  .main{
+    max-width:72%;
+  }
+}
+@media (max-width:803px) {
+  .main{
+    max-width:69%;
+  }
+}
+@media (max-width:734px) {
+  .main{
+    max-width:65%;
+  }
+}
+@media (max-width:652px) {
+  .main{
+    max-width:60%;
+  }
+}
+@media (max-width:579px) {
+  .main{
+    max-width:55%;
   }
 }

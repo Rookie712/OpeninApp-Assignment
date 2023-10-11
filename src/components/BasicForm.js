@@ -28,8 +28,8 @@ const BasicForm = () => {
     dispatch(profileAction.setInfoStatus({ infoStatus: "Contact" }));
     setEmail('');
     setname('');
-    setTel('')
-;  };
+    setTel('');
+   };
   return (
     <div className={classes.main}>
       <form className={classes.form}>
