@@ -172,9 +172,54 @@
 }
 @media (max-width:695px) {
     .header{
-        gap:1rem;
+        gap:1.8rem;
     }
-    .content {
-        width: 34%;
+      .icon {
+        font-size: 0.8rem;
       }
+      .first div p {
+        font-size: 0.7rem;
+        bottom: 0.6rem;
+      }
+      .first div h3 {
+        font-size: 0.9rem;
+        bottom: 1.9rem;
+      }
+      .first .p {
+        top: 0.4rem;
+        font-size: 0.7rem;
+      }
+}
+@media (max-width:652px) {
+  .header{
+    gap:2.25rem;
+}
+.content {
+    width: 32%;
+  }
+  .first .p {
+    top: -1.15rem;
+  }
+}
+@media (max-width:625px) {
+  .header{
+    gap:0.5rem;
+}
+.content{
+  width: 35%;
+}
+  .first .p {
+    top: -1.4rem;
+    font-size:0.5rem ;
+  }
+}
+@media (max-width:548px) {
+  .header{
+    gap:0.5rem;
+}
+  .first .p {
+    top: -1.7rem;
+    right:0.15rem;
+    font-size: 0.4rem;
+  }
 }

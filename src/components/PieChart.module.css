@@ -23,7 +23,7 @@
     border-radius: 1.25rem;
   }
   .first{
-    width: 15.46875rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@
     padding-bottom: 1rem;
   }
   .second{
-    width: 15.46875rem;
+    width:50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@
   .legend{
     display: flex;
     flex-direction: row;
-    width:12.5rem;
+    width:90%;
     gap:0.75rem;
     height: 2.8125rem;
   }
@@ -84,44 +84,170 @@
     color: #858585;
   }
   .third{
-    position: absolute;
-    right: 98.34rem;
-    top:42.375rem;
+    position: relative;
+    bottom: 2rem;
+    left:1rem;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8125rem;
     font-weight: 400;
     letter-spacing: 0.05em;
     color:#858585;
   }
-
-
-  @media(max-width:1300px){
+@media(max-width:1365px){
+  .legend div h4{
+    bottom: 1.1875rem;
+    font-size: 0.9375rem;
+  }
+}
+@media(max-width:1262px){
+  .legend div h4{
+    bottom: 1.1875rem;
+    font-size: 0.7375rem;
+  }
+  .third{
+    font-size: 0.6rem;
+  }
+}
+@media(max-width:1110px){
+  .chart{
+    width:200px;
+  }
+  .first p{
+    font-size: 1rem;
+  }
+}
+@media(max-width:985px){
+  .chart{
+    width:180px;
+  }
+  .first p{
+    font-size: 0.8rem;
+  }
+  .legend div h4{
+    bottom: 1.1875rem;
+    font-size: 0.6375rem;
+  }
+  .third{
+    font-size: 0.5rem;
+    bottom: 2.5rem;
+  }
+}
+@media(max-width:768px){
+  .chart{
+    width: 200px;
+  }
     .footer{
-      height: 13.5rem;
-      width: 28.9375rem;
-    }
-    .chart{
-      width: 14rem;
-    }
-    .apexcharts-legend {
-      font-size: 0.675rem; 
-      gap:1rem;
+      height:17.875rem;
+      width: 100%;
     }
     .first{
-      width: 16.46875rem;
-      gap:0rem;
-      padding-bottom: 0;
+      width: 50%;
+      gap:2rem;
     }
     .second{
-      width: 14.46875rem;
-      gap:0.475rem;
-      top:1rem;
+      width:50%;
+      gap:0.875rem;
+      top:0.625rem;
+    }
+    .first p{
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .legend{
+      display: flex;
+      flex-direction: row;
+      width:90%;
+      gap:0.75rem;
+      height: 2.8125rem;
+    }
+    .legend span{
+      width: 0.625rem;
+      height: 0.625rem;
+      top:0.28125rem;
+      left: 0.125rem;
+    }
+    .legend div h4{
+      bottom: 1.1875rem;
+      font-size: 0.9375rem;
+    }
+    .legend div p{
+      bottom: 1.75rem;
+      font-size: 0.75rem;
     }
     .third{
-      position: absolute;
-      width: 30%;
-      font-size: 0.875rem;
-      top:42.8125rem;
-      left:35.625rem;
+      bottom: 2rem;
+      left:1rem;
+      font-size: 0.8125rem;
+
     }
+}
+@media(max-width:729px){
+  .legend div h4{
+    bottom: 1rem;
+    font-size: 0.8375rem;
   }
+  .third{
+    font-size: 0.6rem;
+  }
+}
+@media(max-width:584px){
+  .first{
+    gap:1rem;
+  }
+  .first p{
+    font-size: 1rem;
+  }
+}
+@media(max-width:670px){
+  .chart{
+    width: 180px;
+  }
+    .footer{
+      height:14.875rem;
+      width: 100%;
+    }
+    .first{
+      width: 50%;
+      gap:1rem;
+    }
+    .second{
+      width:50%;
+      gap:0.675rem;
+      top:0.525rem;
+    }
+    .first p{
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+    .legend{
+      display: flex;
+      flex-direction: row;
+      width:90%;
+      gap:0.65rem;
+      height: 2.8125rem;
+    }
+    .legend span{
+      width: 0.525rem;
+      height: 0.525rem;
+      top:0.28125rem;
+      left: 0.125rem;
+    }
+    .legend div h4{
+      bottom: 1rem;
+      font-size: 0.8rem;
+    }
+    .legend div p{
+      bottom: 1.75rem;
+      font-size: 0.75rem;
+    }
+    .third{
+      bottom: 1rem;
+      left:1rem;
+      font-size: 0.6125rem;
+
+    }
+}
+
+

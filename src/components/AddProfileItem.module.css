@@ -1,7 +1,7 @@
 .profile{
     position: fixed;
-    top: 5rem;
-    left: 30rem;
+    top:10%;
+    left:40%;
     width: 28.125rem;
     height: auto;
     background-color:#FFFFFF;
@@ -25,9 +25,4 @@
     font-size: 1.25rem;
     font-weight: 600;
     letter-spacing: 0.04em;
-}
-@media(max-width:1300px){
-    .profile{
-        top: 3rem;
-    }
 }

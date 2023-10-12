@@ -9,7 +9,7 @@ const SecondHeader = () => {
   return (
     <div className={classes.header}>
         <div className={classes.content}>
-            <div><CloudDownloadIcon style={{backgroundColor:'#7fcd93'}} className={classes.icon}/></div>
+            <div className={classes.iconDivd}><CloudDownloadIcon style={{backgroundColor:'#7fcd93'}} className={classes.icon}/></div>
             <div className={classes.first}>
                 <div>
                     <p>Total Revenues </p>
@@ -19,7 +19,7 @@ const SecondHeader = () => {
             </div>
         </div>
         <div className={classes.content}>
-            <LocalOfferIcon style={{backgroundColor:'#DEBF85'}} className={classes.icon}/>
+            <div className={classes.iconDivd} ><LocalOfferIcon style={{backgroundColor:'#DEBF85'}} className={classes.icon}/></div>
             <div className={classes.first}>
                 <div>
                     <p>Total Transcations</p>
@@ -29,7 +29,7 @@ const SecondHeader = () => {
             </div>
         </div>
         <div className={classes.content}>
-            <ThumbUpAltOutlinedIcon style={{backgroundColor:'#ECA4A4'}} className={classes.icon}/>
+            <div className={classes.iconDiv}><ThumbUpAltOutlinedIcon style={{backgroundColor:'#ECA4A4'}} className={classes.icon}/></div>
             <div className={classes.first}>
                 <div>
                     <p>Total Likes</p>
@@ -39,7 +39,7 @@ const SecondHeader = () => {
             </div>
         </div>
         <div className={classes.content}>
-            <PeopleOutlineIcon style={{backgroundColor:'#A9B0E5'}} className={classes.icon}/>
+            <div className={classes.iconDiv}><PeopleOutlineIcon style={{backgroundColor:'#A9B0E5'}} className={classes.icon}/></div>
             <div className={classes.first}>
                 <div>
                     <p>Total Users</p>

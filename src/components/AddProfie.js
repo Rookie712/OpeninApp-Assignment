@@ -19,7 +19,7 @@ const AddProfie = () => {
       <p>Add Profile</p>
     </div>
   );
-  return <div onClick={addProfile} >
+  return <div className={classes.mainDiv} onClick={addProfile} >
     {!profile.submitStatus && AddProfile}
     {profile.submitStatus && <Profile/>}
   </div>;

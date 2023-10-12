@@ -43,7 +43,7 @@
 }
 .footer{
     position: relative;
-    top:21.875rem;
+    top:14.875rem;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
@@ -54,14 +54,3 @@
     text-decoration: none;
     color: #ffffff;
 }
-@media (max-width:1300px){
-    .nav{
-        width: 13rem;
-    }
-    .nav nav a div{
-        letter-spacing: 0.02em;
-    }
-    .nav nav a{
-        font-size: 0.9rem;
-    }
-  }

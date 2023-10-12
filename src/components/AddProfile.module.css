@@ -1,3 +1,6 @@
+.mainDiv{
+    width:30.9375rem;
+}
 .main{
     background-color: #FFFFFF;
     height: 17.5rem;
@@ -5,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:30.9375rem;
+    width:100%;
     gap:0.625rem;
     border: 0.125rem solid #E0E0E0;
     box-shadow: 0.25rem 0.25rem 1.25rem 0px #0000001A;
@@ -34,10 +37,8 @@ button .icon{
 .main button:hover{
     background-color: #d1cdcd;
 }
-
-@media(max-width:1300px){
+@media(max-width:670px){
     .main{
-      height: 13.5rem;
-      width: 28.9375rem;
+        height: 14.75rem;
     }
 }

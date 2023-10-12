@@ -40,9 +40,10 @@ const PieChart = () => {
     <div className={classes.footer}>
       <div className={classes.first}>
         <p>Top Products</p>
-        <ReactApexChart options={state.options} series={state.series} type="donut" className={classes.chart} />
+        <div className={classes.chart} ><ReactApexChart options={state.options} series={state.series} type="donut" className={classes.chart} /></div>
       </div>
       <div className={classes.second}>
+      <p className={classes.third}>May - June 2021</p>
         <div className={classes.legend}>
           <span style={{backgroundColor:'#98D89E'}}></span>
           <div>
@@ -65,7 +66,6 @@ const PieChart = () => {
           </div>
         </div>
       </div>
-      <p className={classes.third}>May - June 2021</p>
     </div>
   )
 }
